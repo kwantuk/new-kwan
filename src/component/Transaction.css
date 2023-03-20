@@ -1,0 +1,29 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=K2D:ital@0;1&family=Poppins:wght@100&display=swap'); */
+*{
+    font-family: 'Charm', cursive;
+font-family: 'K2D', sans-serif;
+font-family: 'Poppins', sans-serif;
+} 
+.item-list{
+    
+    background: gray;
+    list-style-type:none;
+    padding: 0;
+    margin-bottom: 40px;
+    margin: 30px auto;
+    width: 350px;
+    
+}
+
+.item-list li{
+    
+    background: pink;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12);
+    padding: 10px;
+    color: green;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+}
